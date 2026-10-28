@@ -1,0 +1,38 @@
+/* Font */
+body {
+    font-family: 'Open sans', sans-serif;
+}
+.about-box h2 {
+    font-family: 'Poppins', sans-serif;
+}
+/* Background */
+#about {
+    background-image: url(../assets/images/about.png);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+.about-box {
+    width: 620px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 20px;
+}
+/* Text */
+.about-box h2 {
+    text-align: center;
+    color: #172554;
+}
+.about-box p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.8;
+}
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+}
+footer {
+    text-align: center;
+}
