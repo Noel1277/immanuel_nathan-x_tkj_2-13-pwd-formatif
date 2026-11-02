@@ -1,0 +1,39 @@
+.menu a {
+    transition: color 0.3s ease;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+    color: #52677D;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-grow {
+    transition: transform 0.3s ease-out;
+}
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+.btn-darken {
+    transition: background-color 0.4s linear;
+}
+.btn-darken:hover {
+    background-color: hsl(211, 100%, 77%);
+}
+a:focus {
+    outline: 2px solid #52677D;
+    outline-offset: 3px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
