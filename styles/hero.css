@@ -1,0 +1,68 @@
+body {
+    font-family: arial, sans-serif;
+}
+#hero {
+    height: 400px;
+    background-image: url('../assets/images/hero.png');
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.hero-content {
+    width: 640px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 254, 254, 0.75);
+    border-radius: 8px;
+    text-align: center;
+}
+.hero-content h1,
+.hero-content p {
+    animation-name: slide-up;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+}
+.hero-content p {
+    animation-delay: 0.6s;
+}
+@keyframes slide-up {
+    0% {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(40px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }
+    75% {
+        transform: translateY(8px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: #34443A;
+    border-radius: 8px;
+}
