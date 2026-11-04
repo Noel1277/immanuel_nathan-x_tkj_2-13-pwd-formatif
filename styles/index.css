@@ -1,0 +1,41 @@
+header {
+    text-align: center;
+    background-color: #263A32;
+    color: #F3EFE5;
+    padding: 15px;
+}
+#components h2,
+#pages h2 {
+    color: #292D32;
+    font-size: 22px;
+}
+main a {
+    color: #52677D;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    background-color: #51252D;
+    color: #F7F0E8;
+    padding: 17px;
+}
+body {
+    background-color: #E8EAED;
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 40px;
+}
+section h2 {
+    text-align: center;
+}
+#components ul,
+#pages ul {
+    margin-left: 40%;
+}
